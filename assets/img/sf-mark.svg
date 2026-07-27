@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="SF Market logo mark">
+  <defs>
+    <linearGradient id="sfTop" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#00b5c0"/>
+      <stop offset="0.45" stop-color="#00a5b1"/>
+      <stop offset="1" stop-color="#008694"/>
+    </linearGradient>
+    <linearGradient id="sfMid" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#008694"/>
+      <stop offset="1" stop-color="#085563"/>
+    </linearGradient>
+  </defs>
+  <!-- top S-curve: left upright sweeping across the top, hooked right cap -->
+  <path fill="url(#sfTop)" d="
+    M20,158
+    L20,58
+    Q20,8 74,8
+    L252,8
+    Q296,8 296,48
+    L296,56
+    Q296,86 264,86
+    L258,86
+    Q244,86 244,72
+    Q244,64 232,64
+    L112,64
+    Q82,64 82,94
+    L82,152
+    Q82,174 58,174
+    Q20,174 20,158 Z"/>
+  <!-- middle bar + right descender + bottom band with tail (mirrored C) -->
+  <path fill="url(#sfMid)" d="
+    M164,112
+    L256,112
+    Q298,112 298,152
+    L298,226
+    Q298,270 254,270
+    L178,270
+    Q166,288 152,301
+    Q142,310 137,306
+    Q132,302 133,290
+    L134,270
+    Q130,270 130,244
+    L130,230
+    Q130,222 142,222
+    L228,222
+    Q240,222 240,210
+    L240,176
+    Q240,167 230,167
+    L164,167
+    Q130,167 130,139
+    Q130,112 164,112 Z"/>
+  <!-- lower-left block -->
+  <path fill="#085563" d="
+    M20,200
+    Q20,192 30,192
+    L70,192
+    Q80,192 80,200
+    L80,258
+    Q80,268 70,268
+    L52,268
+    Q20,268 20,238 Z"/>
+</svg>
