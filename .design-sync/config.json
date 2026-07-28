@@ -1,0 +1,14 @@
+{
+  "projectId": "e0425a0f-a1b7-4645-b037-c0e63d4b908f",
+  "shape": "package",
+  "pkg": "@sfmarket/react",
+  "globalName": "SFMarket",
+  "buildCmd": "cd ds-react && npm run build",
+  "cssEntry": "dist/styles.css",
+  "extraFonts": [
+    "../assets/fonts/fonts.css"
+  ],
+  "docsDir": "docs",
+  "guidelinesGlob": [],
+  "readmeHeader": ".design-sync/conventions.md"
+}

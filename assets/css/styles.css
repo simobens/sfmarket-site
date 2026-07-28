@@ -137,7 +137,12 @@ img { max-width: 100%; height: auto; display: block; }
 .btn--ghost:hover { background: var(--sf-accent); color: #fff; }
 .btn--teal { background: var(--sf-teal-500); border-color: var(--sf-teal-500); }
 .btn--teal:hover { background: var(--sf-teal-900); border-color: var(--sf-teal-900); }
-.btn--block { display: block; text-align: center; }
+.btn--block { display: block; width: 100%; text-align: center; }
+.btn:disabled, .btn[aria-disabled="true"] {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: none;
+}
 
 /* ---- 4. Header ------------------------------------------------------------ */
 .site-header {
@@ -371,6 +376,7 @@ img { max-width: 100%; height: auto; display: block; }
   transition: border-color .2s ease;
 }
 .field:focus { border-color: var(--sf-border); }
+.field:disabled { opacity: 0.55; cursor: not-allowed; }
 textarea.field { border-radius: 18px; min-height: 120px; resize: vertical; }
 
 /* ---- 11. Footer ----------------------------------------------------------------- */
